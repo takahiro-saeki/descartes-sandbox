@@ -1,0 +1,39 @@
+{
+  "name": "descartes-sandbox",
+  "version": "1.0.0",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "tree": "tree -I node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takahiro-saeki/descartes-sandbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takahiro-saeki/descartes-sandbox/issues"
+  },
+  "homepage": "https://github.com/takahiro-saeki/descartes-sandbox#readme",
+  "devDependencies": {
+    "babelify": "^7.2.0",
+    "browser-sync": "^2.11.1",
+    "browserify": "^13.0.0",
+    "browserify-shim": "^3.8.12",
+    "fs": "0.0.2",
+    "gulp": "^3.9.1",
+    "gulp-ejs": "^2.1.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
