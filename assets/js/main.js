@@ -8,11 +8,7 @@ let main = new Descartes({
     "transition": "all 0.5s ease",
     "_listeners": [[window, 'resize']],
     "flex-basis": () => windows(param[12], param[6], param[4]),
-    "max-width": () => windows(param[12], param[6], param[4]),
-    "img": {
-      "_listeners": [[window, 'mouseover']],
-      "border": (e) => '10px solid yellow'
-    }
+    "max-width": () => windows(param[12], param[6], param[4])
   },
   ".delete": {
     "position": "absolute",
@@ -21,4 +17,3 @@ let main = new Descartes({
     "font-size": "2rem"
   }
 })
-//

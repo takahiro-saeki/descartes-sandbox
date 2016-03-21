@@ -31,6 +31,19 @@ let base = new Descartes({
   "footer": {
     "padding": "1rem",
     "background": "#222",
-    "color": "#fff"
+    "color": "#fff",
+    "margin-top": "2rem"
+  },
+  ".nav-title": {
+    "padding": "1rem",
+    "text-align": "center",
+    "font-size": "2rem",
+    "flex-basis": "100%",
+    "max-width": "100%"
+  },
+  ".copyright": {
+    "text-align": "center",
+    "flex-basis": "100%",
+    "max-width": "100%"
   }
 })

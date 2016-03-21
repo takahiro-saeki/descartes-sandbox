@@ -1,14 +1,15 @@
 import $ from 'jquery';
-import header from './header';
+import grid from './grid';
 import base from './base';
-import nav from './nav';
 import main from './main';
-import footer from './footer';
-import date from './date';
-date()
+import materialIcons from './materialIcons';
+
+const styles = Object.assign(materialIcons, grid);
+let icons = new Descartes(styles)
 
 $(function() {
-  $('.delete').on('click', (e) => {
+  let $delete = $('.delete');
+  $delete.on('click', (e) => {
     $(e.target).closest('li').remove();
   })
 })
