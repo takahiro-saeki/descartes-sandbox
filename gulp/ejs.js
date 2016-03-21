@@ -11,7 +11,7 @@ gulp.task('ejs', () => {
   .pipe(plumber({
     errorHandler: notify.onError("Error: <%= error.message %>")
   }))
-  .pipe(ejs({ext: '.html'}))
+  .pipe(ejs({}, {ext: '.html'}))
   .pipe(gulp.dest(PATHS.TEMP_EJS))
   .pipe(browserSync.stream());
 });

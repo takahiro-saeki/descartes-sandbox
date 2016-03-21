@@ -9,4 +9,5 @@ gulp.task('default', () => {
     gulp.watch(PATH.EJS_FULL, ['ejs']);
     gulp.watch(PATH.JS_FULL, ['js']);
     gulp.watch(PATH.IMG, ['imgMin']);
+    gulp.watch(PATH.IMG, ['style']);
 });
