@@ -4,8 +4,8 @@ import base from './base';
 import main from './main';
 import materialIcons from './materialIcons';
 
-const styles = Object.assign(materialIcons, grid);
-let icons = new Descartes(styles)
+const styles = Object.assign(materialIcons, grid, base, main);
+const icons = new Descartes(styles)
 
 $(function() {
   let $delete = $('.delete');
